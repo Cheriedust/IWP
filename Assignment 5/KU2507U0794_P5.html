@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Course</title>
+    <style>
+        body{
+            background: linear-gradient(to left, grey, white) ;
+        }
+        h1, h2{
+            text-align: center;
+        }
+        hr{
+            margin-bottom: 50px;
+        }
+        form{
+            text-align: center;
+        }
+        label{
+            margin: 20px;
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>KU Online Fullstack Course</h1>
+    <hr>
+    <h2>Registration form:</h2>
+    <form action="#" method="get">
+        <label for="fullName">Full Name: </label>
+        <input name="fullName" placeholder="Enter your Name.." type="text" required>
+        <br>
+        <label for="rollNumber">Roll Number: </label>
+        <input name="rollNumber" placeholder="Enter your roll number.." type="number" required>
+        <br>
+        <label for="email">E-mail address: </label>
+        <input name="email" placeholder="Enter your email.." type="email" required>
+        <br>
+        <label for="contactNumber">Contact Number: </label>
+        <input name="contactNumber" placeholder="Enter contact number.." type="number" required>
+        <br>
+        <label for="resume">Upload Your Resume: </label>
+        <input name="fullName" type="file">
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
